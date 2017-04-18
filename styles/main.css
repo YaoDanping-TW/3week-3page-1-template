@@ -10,21 +10,20 @@ header {
 .navigation {
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	background-color: rgba(0, 0, 0, 0.2);
-	height: 72px;
 }
 
 .navigation-item {
 	width: 120px;
+	height: 72px;
 	color: #fff;
 	font-size: 14px;
-	padding-left: 30px;
-	padding-right: 30px;
-	position: relative;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
 }
 
-.navigation-item:not(first-child) {
+.navigation-item:not(:last-child) {
 	border-right: 1px solid #aaaaaa;
 }
 
@@ -160,8 +159,8 @@ header {
 }
 
 .third-item {
-	width: 40%;
-	padding: 0 5%;
+	width: 48%;
+	padding: 0 1%;
 }
 
 .third-title {
