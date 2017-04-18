@@ -176,7 +176,8 @@ header {
 }
 
 .container-forth {
-	background: url(../images/header.jpg) no-repeat;
+	background: url(../images/header.jpg);
+	background-size: cover;
 	background-position: center;
 	background-color: rgba(0, 0, 0, 0.1);
 	padding: 120px 0;
